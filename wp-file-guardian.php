@@ -282,17 +282,17 @@ class WP_File_Guardian {
             <hr class="wp-header-end">
             
             <nav class="nav-tab-wrapper">
-                <a href="?page=<?php echo $this->plugin_slug; ?>&tab=general" 
+                <a href="?page=<?php echo $this->plugin_slug; ?>_settings&tab=general" 
                    class="nav-tab <?php echo $current_tab === 'general' ? 'nav-tab-active' : ''; ?>">
                     <span class="dashicons dashicons-admin-generic" style="margin-right: 5px;"></span>
                     General
                 </a>
-                <a href="?page=<?php echo $this->plugin_slug; ?>&tab=email" 
+                <a href="?page=<?php echo $this->plugin_slug; ?>_settings&tab=email" 
                    class="nav-tab <?php echo $current_tab === 'email' ? 'nav-tab-active' : ''; ?>">
                     <span class="dashicons dashicons-email" style="margin-right: 5px;"></span>
                     Email Settings
                 </a>
-                <a href="?page=<?php echo $this->plugin_slug; ?>&tab=unknown_files" 
+                <a href="?page=<?php echo $this->plugin_slug; ?>_settings&tab=unknown_files" 
                    class="nav-tab <?php echo $current_tab === 'unknown_files' ? 'nav-tab-active' : ''; ?>">
                     <span class="dashicons dashicons-warning" style="margin-right: 5px;"></span>
                     Unknown Files
